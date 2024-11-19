@@ -1,0 +1,50 @@
+/* Estilos de la barra de navegación */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Estilos de la tabla */
+.table {
+  margin-top: 2rem;
+}
+
+.table th {
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+
+/* Imagen de persona */
+.img-fluid {
+  border: 1px solid #198754; /* Borde verde */
+}
+
+/* Estilos de lista de detalles */
+.list-group-item {
+  font-size: 1.2rem;
+}
+
+/* Contorno según el estado */
+.btn-success {
+  border-color: #198754; /* Contorno verde */
+}
+
+.btn-danger {
+  border-color: #dc3545; /* Contorno rojo */
+}
+
+.badge.bg-danger {
+  color: white;                /* Texto blanco */
+  background-color: #dc3545;   /* Fondo rojo */
+  border-color: #dc3545;       /* Contorno rojo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para realce */
+}
+
+.badge:hover {
+  transform: translateY(-2px); /* Efecto de elevación */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más prominente */
+}

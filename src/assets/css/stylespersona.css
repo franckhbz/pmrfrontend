@@ -1,0 +1,13 @@
+/* Estilos adicionales */
+.img-fluid {
+    border: 2px solid #198754; /* Borde verde alrededor de la imagen */
+}
+
+.list-group-item {
+    font-size: 1.2rem;
+}
+
+#btn-cambiar-estado {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

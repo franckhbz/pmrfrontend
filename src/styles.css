@@ -1,1 +1,88 @@
-/* You can add global styles to this file, and also import other style files */
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Configuración global */
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  :root {
+    --primary-color: #198754;
+    --secondary-color: #6c757d;
+    --danger-color: #dc3545;
+  }
+  
+  /* Personalización de Bootstrap */
+  .navbar-light {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-brand:hover {
+    color: #d4edda;
+  }
+  
+  /* Estilo global para tablas */
+  .table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    padding: 0.75rem;
+  }
+  
+  .table th {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  /* Imágenes con bordes */
+  .img-fluid {
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+  }
+  /* Personalización de botones */
+.btn-custom {
+    font-weight: bold; /* Mantiene el texto en negrita */
+    border: 2px solid transparent; /* Define un contorno por defecto */
+}
+  
+  .btn-custom.btn-success {
+    border-color: #198754; /* Contorno verde */
+  }
+  
+  .btn-custom.btn-danger {
+    border-color: #dc3545; /* Contorno rojo */
+  }
+  
+
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+    .form-control {
+      max-width: 100%;
+    }
+  }
+    
+
+  
+  /* Importar estilos adicionales */
+  @import 'assets/css/styles.css';
+  @import 'assets/css/stylespersona.css';
+  

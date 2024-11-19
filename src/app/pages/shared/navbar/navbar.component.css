@@ -1,0 +1,13 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+  }
+  
+  .form-control {
+    max-width: 300px;
+  }
+  

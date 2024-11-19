@@ -1,0 +1,7 @@
+form label {
+    font-weight: bold;
+  }
+  form .form-control, form .form-check-input {
+    border-radius: 0.25rem;
+  }
+  

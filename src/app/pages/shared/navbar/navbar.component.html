@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <div class="container">
+    <a class="navbar-brand text-white" (click)="navigateToEstacionPMR()">Lista PMR</a>
+    <a class="navbar-brand text-white" (click)="navigateToForm()">Formulario</a>
+    <!-- Botón hamburguesa para móviles -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Contenido del navbar -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Buscar PMR" aria-label="Buscar">
+        <button class="btn btn-outline-light" type="submit">Buscar</button>
+      </form>
+      <span class="text-white ms-3">{{ currentTime }}</span>
+    </div>
+  </div>
+</nav>

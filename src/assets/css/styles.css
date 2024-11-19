@@ -1,0 +1,21 @@
+/* Estilos personalizados */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 2rem;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.badge {
+    font-size: 1rem;
+}
